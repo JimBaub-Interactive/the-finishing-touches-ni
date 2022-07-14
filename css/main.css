@@ -1,0 +1,35 @@
+.mainColour {
+  background-color: #465c4c;
+}
+.mainColour-text {
+  color: #465c4c;
+}
+
+.secColour {
+  background-color: #B6C0B2;
+}
+.secColour-text {
+  color: #B6C0B2;
+}
+
+.gold-text {
+  color: #c1a453;
+}
+
+.gold{
+    background-color: #c1a453;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.primary-text{
+    color:#ECE7D8;
+}

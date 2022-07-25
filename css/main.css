@@ -33,3 +33,7 @@ main {
 .primary-text{
     color:#ECE7D8;
 }
+
+.justify{
+  text-align: justify;
+}

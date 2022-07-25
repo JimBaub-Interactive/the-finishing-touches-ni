@@ -37,3 +37,11 @@ main {
 .justify{
   text-align: justify;
 }
+
+.collapsible-body{
+  background-color: #95a69a;
+}
+
+.collapsible-header{
+  background-color: #465c4c;
+}

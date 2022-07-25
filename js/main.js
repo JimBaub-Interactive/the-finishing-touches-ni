@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', function(){
     var dropdowns = document.querySelectorAll('.dropdown-trigger');
     var sidenavs = document.querySelectorAll('.sidenav');
     var parallax = document.querySelectorAll('.parallax');
+    var collapsibles = document.querySelectorAll('.collapsible');
     var initDrop = M.Dropdown.init(dropdowns, {coverTrigger: false, constrainWidth:false});
     var initSidenav = M.Sidenav.init(sidenavs, {});
     var initParallax = M.Parallax.init(parallax, {});
+    var initCollapse = M.Collapsible.init(collapsibles, {});
 });

@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Georgia Pro Cond';
+    src: url('fonts/GeorgiaPro-CondRegular.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-CondRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro';
+    src: url('fonts/GeorgiaPro-BlackItalic.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro Cond';
+    src: url('fonts/GeorgiaPro-CondItalic.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-CondItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro Cond';
+    src: url('fonts/GeorgiaPro-CondLight.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-CondLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro Cond';
+    src: url('fonts/GeorgiaPro-CondBlackItalic.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-CondBlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro Cond';
+    src: url('fonts/GeorgiaPro-CondBlack.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-CondBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro Cond';
+    src: url('fonts/GeorgiaPro-CondLightItalic.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-CondLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro';
+    src: url('fonts/GeorgiaPro-Black.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro';
+    src: url('fonts/GeorgiaPro-Bold.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro Cond';
+    src: url('fonts/GeorgiaPro-CondBold.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-CondBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro Cond';
+    src: url('fonts/GeorgiaPro-CondSemibold.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-CondSemibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro';
+    src: url('fonts/GeorgiaPro-BoldItalic.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro Cond';
+    src: url('fonts/GeorgiaPro-CondBoldItalic.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-CondBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro';
+    src: url('fonts/GeorgiaPro-Italic.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro Cond';
+    src: url('fonts/GeorgiaPro-CondSemiboldItalic.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-CondSemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro';
+    src: url('fonts/GeorgiaPro-Semibold.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro';
+    src: url('fonts/GeorgiaPro-Light.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro';
+    src: url('fonts/GeorgiaPro-LightItalic.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Pro';
+    src: url('fonts/GeorgiaPro-SemiboldItalic.woff2') format('woff2'),
+        url('fonts/GeorgiaPro-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+

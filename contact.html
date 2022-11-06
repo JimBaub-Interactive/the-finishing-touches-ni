@@ -5,7 +5,7 @@
     <title>Contact Us - The Finishing Touches</title>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="fontsheet.css" rel="stylesheet"/>
+    <link href="fontsheet.css" rel="stylesheet" />
 
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
@@ -18,11 +18,11 @@
     <header>
         <nav class="mainColour">
             <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo center"><img src="../images/logo/The Finishing Touches Logo.png"
+                <a href="index.html" class="brand-logo center"><img src="./images/logo/The Finishing Touches Logo.png"
                         width="85px"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="link" href="../about.html">About</a></li>
+                    <li><a class="link" href="./about.html">About</a></li>
                     <li><a class="dropdown-trigger" href="#" data-target="services-main-drop">Services<i
                                 class="material-icons right">arrow_drop_down</i></a></li>
                     <li><a href="faq.html">F.A.Q</a></li>
@@ -60,7 +60,49 @@
         </ul>
     </header>
     <main class="container primary-text">
+        <h4>Contact The Finishing Touches</h4>
+        <p class="flow-text">Use this form to get in touch with us!</p>
 
+        <div class="row">
+            <form class="col s12" name="contact" method="POST" data-netlify="true">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="John" id="first_name" type="text" class="validate">
+                        <label class="active" for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input placeholder="Smith" id="last_name" type="text" class="validate">
+                        <label class="active" for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="phone" type="tel" class="validate">
+                        <label for="phone">Phone Number</label>
+                    </div>
+                </div>
+                <h5>Select Your Preferred Contact Method</h5>
+                <p>
+                    <label>
+                        <input name="contactMethod" type="radio" checked />
+                        <span>Phone</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="contactMethod" type="radio" />
+                        <span>Email</span>
+                    </label>
+                </p>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
 
     </main>
     <footer class="page-footer mainColour">
